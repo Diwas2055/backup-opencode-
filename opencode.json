@@ -1,9 +1,12 @@
 {
   "$schema": "https://opencode.ai/config.json",
   "share": "disabled",
-  "plugin": [
-    "opencode-antigravity-auth@latest",
-    "opencode-agent-memory"
+  "instructions": [
+    ".config/opencode/rules/core-rules.md",
+    ".config/opencode/rules/performance-optimization.md",
+    ".config/opencode/rules/prompt-optimize.md",
+    ".config/opencode/rules/code-scanner.md",
+    "~/.config/opencode/AGENTS.md"
   ],
   "mcp": {
     "notion": {
